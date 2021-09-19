@@ -1,0 +1,36 @@
+.row_Blocks {
+  width: 70rem;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 6px 10px rgb(5, 20, 20);
+  padding: 16 px;
+  text-align: center;
+  background-color: rgb(101, 156, 156);
+  color: white;
+}
+img {
+  align-self: center;
+  max-width: 50vh;
+  width: inherit;
+  height: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 100%;
+  max-height: 40vh; */
+}
+.row > h2 {
+  margin: 0 20px;
+  border: 2px solid bisque;
+  box-shadow: 0 3px 5px #ccc;
+  background-color: coral;
+  color: black;
+}
+.row {
+  margin-bottom: 100px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
